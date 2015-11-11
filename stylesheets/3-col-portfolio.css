@@ -1,0 +1,334 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,700);
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+h3{
+    font-size:1.6em;
+}
+.btn-fitscore{
+    background-color: #ffffff;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+
+.img-responsive{
+    margin-top: 2em;
+    max-height:100%;
+    width:13em;
+}
+
+.carousel-caption {
+    color: #ffffff;
+    background-color:transparent;
+}
+
+#sidebar {
+    position: fixed;
+    height: 132px;
+    left: 0;
+    top: 185px;
+    width: 24px;
+}
+
+/*footer {
+    margin: 50px 0;
+}*/
+
+.progress {
+    background: rgba(245, 245, 245, 1);
+    border: 0px solid rgba(245, 245, 245, 1);
+    height: 20px;
+    margin-bottom: 10px;
+}
+.progress-text{
+    font-size: 14px;
+    margin: 1px;
+}
+
+
+
+.body-block{
+    font-size:18px;
+}
+
+
+a{
+    font-size:20px;
+}
+.modal-title{
+    text-align: center;
+}
+
+.img-modal-corners{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.margin-modal-bottoms{
+    margin-top: 10px;
+}
+.center-text{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+	font-weight: 700;
+    font-size: 22px;
+    font-family: 'Quicksand';
+    letter-spacing: 0.1em;
+}
+.small-text{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Quicksand';
+    letter-spacing: 0.1em;
+}
+.welcome-pagination .dot {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    cursor: pointer;
+    height: 16px;
+    margin-bottom: 10px;
+    opacity: .4;
+    position: relative;
+    width: 16px;
+    box-sizing: border-box;
+}
+.welcome-pagination {
+    z-index: 100;
+    position: fixed;
+    margin-top: 25%;
+    margin-left: 50px;
+}
+
+
+.window .sign-up {
+   
+}
+#measurement-button{
+    margin-top: 175px;
+    margin-bottom: 150px;
+    background-color: #66afe9;
+    text-transform: uppercase;
+    color: white;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.middle-barrier{
+    margin-top: 300px;
+}
+.top{
+    margin-top: 150px;
+    margin-bottom: 20pxs;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+	font-weight: 800;
+    font-size: 80px;
+    font-family: 'Quicksand';
+    letter-spacing: 0.08em;
+}
+.shrinked{
+    margin-top:10px;
+    width: 330px;
+    color: white;
+    background-color: white;
+    height: 1px;
+}
+
+.logo{
+    height:1.5em;
+    width: 3em;
+    position: absolute;
+    right: 2em;
+    top: 16vw;
+}
+.zara{
+    height: 1.2em;
+    width: 3.6em;
+}
+.graph-btn{
+    background-color: #ffffff;
+    color: #5e5e5e;
+    width:20px;
+    height:20px;
+    padding-left:4px;
+    padding-top:0px;
+}
+
+
+.fitgraph{
+    height: 1500%;
+}
+.our-logo{
+    height: 3.5em;
+    width: 12em;
+}
+@media (min-width: 1370px){
+    .container {
+       width: 1350px;
+       }
+}
+.navbar-default{
+    padding-bottom:1em;
+}
+.btn-buy{
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #5e5e5e;
+    color: #5e5e5e;
+    font-weight: 600;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn-fitscore{
+    background-color: #ffffff;
+    color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.clothes-size{
+    float: right;
+    padding-right: 1em;
+    background-color: #ffffff;
+    color: #5e5e5e;
+    font-weight: 600;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.glyphicon {
+    color: #CCC8DE;
+}
+
+.navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center;
+}
+.navbar-center{
+    text-align: center;
+}
+.navbar-transparent {
+    padding-bottom:0em;
+}
+
+.navbar-text {
+    text-align: center;
+    color: CCC8DE;
+}
+
+.navbar-link {
+    text-align: center;
+    color: CCC8DE;
+}
+
+.btn-custom {
+    color: #CCC8DE;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #FFFFFF
+    color: #333333;
+}
+.btn-custom:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #FFFFFF
+    color: #333333;
+}
+
+.hover{
+    transition: opacity .45s cubic-bezier(1,0.73, 0, 0.83),margin-top .45s cubic-bezier(.25,.46, .45, .94);
+    opacity: 0;
+    color: #000000;
+    position: absolute;
+}
+
+.portfolio-item {
+    margin-left: 1.5em;
+    margin-right:1.5em;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    color:white;
+    text-align: center;
+}
+.portfolio-item:hover {
+    color:black;
+}
+
+.brand{
+    font-weight: bold;
+    text-align: center;
+}
+.brand:hover {
+    color:black;
+}
+
+.money{
+    font-weight: bold;
+    font-family: Calisto MT;
+    text-align: center;
+    text-align: center;
+}
+.money:hover {
+    color:#b12704;
+}
+
+.fitscore{
+    font-weight: 700;
+    text-align: center;
+}
+
+.score{
+}
+.score:hover {
+    color:#4C8463;
+    text-align: center;
+}
+
+.square {
+    border-radius: 0;
+}
+
+
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   Margin bottom by footer height 
+  margin-bottom: 60px;
+}*/
+
+.footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
